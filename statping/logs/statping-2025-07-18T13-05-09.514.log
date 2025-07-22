@@ -1,0 +1,14 @@
+[36mINFO[0m[0000] Starting Statping v0.93.0                     [36mtype[0m=cmd
+[36mINFO[0m[0000] Attempting to read config file at: /opt/statping/config.yml  [36mtype[0m=configs
+[36mINFO[0m[0000] Database mysql connection was successful.     [36mtype[0m=configs
+[36mINFO[0m[0000] Migrating Database Tables...                  [36mtype[0m=configs
+[36mINFO[0m[0000] Migrating App to version: v0.93.0 (c02149f0a5f67fec1e60cfa3537478cd50899b15)  [36mtype[0m=configs
+[36mINFO[0m[0000] Statping Database Tables Migrated             [36mtype[0m=configs
+[36mINFO[0m[0000] Database Indexes Created                      [36mtype[0m=configs
+[36mINFO[0m[0000] Error Reporting initiated, thank you!        
+[36mINFO[0m[0000] Starting monitoring process for 1 Services    [36mtype[0m=service
+[36mINFO[0m[0000] Statping HTTP Server running on http://0.0.0.0:8080/  [36mtype[0m=handlers
+[36mINFO[0m[0000] Database Cleanup runs every 1h0m0s and will remove records older than 2160h0m0s  [36mtype[0m=database
+[33mWARN[0m[0001] Service rhscz.eu Failing: Could not send ICMP to service rhscz.eu, socket: permission denied | Lookup in: 0 ms  [33mtype[0m=service
+[33mWARN[0m[0011] Service rhscz.eu Failing: Could not send ICMP to service rhscz.eu, socket: permission denied | Lookup in: 0 ms  [33mtype[0m=service
+[33mWARN[0m[0021] Service rhscz.eu Failing: Could not send ICMP to service rhscz.eu, socket: permission denied | Lookup in: 0 ms  [33mtype[0m=service
